@@ -1,0 +1,1 @@
+!function(l){(window.player||(window.player={})).renderList=function(n){var o=l("<ul></ul>");n.forEach(function(n,i){l("<li class="+i+">"+n.song+"</li>").appendTo(o)}),l(".musicList").html(o)}}(window.Zepto);
